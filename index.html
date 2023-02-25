@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 10 Assignment</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body class="container">
+    <h2 class="p-3">Ideas</h2><br>
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+
+                        <input class="form-control" id="idea" type="text" placeholder="New Idea"
+                            aria-label="default input example">
+                        <label for="date">Goal Date</label>
+                        <input type="date" class="m-3" id="goal-date">
+                    </div>
+                </div>
+            </div>
+            <button id="submit" type="button" class="btn btn-secondary ms-3 mt-3">Submit</button>
+        </div>
+    </div>
+
+    <table id="list" class="table table-light table-striped mt-3">
+        <tr>
+            <th>Idea</th>
+            <th>Goal Date</th>
+            <th>Complete</th>
+        </tr>
+    </table>
+
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="week10.js"></script>
+</body>
+
+</html>
